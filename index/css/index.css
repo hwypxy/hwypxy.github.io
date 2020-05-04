@@ -1,0 +1,143 @@
+body {
+  font: 16px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#firstCover {
+  width: 100%;
+  background-color: #e6e6e6;
+  position: relative;
+  overflow: hidden;
+}
+#firstCover #round {
+  border-radius: 50%;
+  background-color: #5b5b5b;
+  box-shadow: #999 0 0 20px 5px;
+  position: absolute;
+}
+@media screen and (min-width: 768px) {
+  #firstCover #round {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #firstCover #round {
+    width: 150px;
+    height: 150px;
+  }
+}
+#firstCover #round .log {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #firstCover #round .log {
+    height: 50px;
+    font-size: 30px;
+    top: -25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #firstCover #round .log {
+    height: 30px;
+    font-size: 20px;
+    top: -15px;
+  }
+}
+#firstCover #round .log .login,
+#firstCover #round .log .sign {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+#firstCover #round .logInput {
+  display: none;
+  font-size: 14px;
+}
+#firstCover #round .logInput .userLog,
+#firstCover #round .logInput .pwdSign {
+  position: relative;
+}
+#firstCover #round .logInput .userLog .user,
+#firstCover #round .logInput .pwdSign .user,
+#firstCover #round .logInput .userLog .pwd,
+#firstCover #round .logInput .pwdSign .pwd {
+  padding-left: 30px;
+}
+#firstCover #round .logInput .userLog .icon-user,
+#firstCover #round .logInput .pwdSign .icon-user,
+#firstCover #round .logInput .userLog .icon-password,
+#firstCover #round .logInput .pwdSign .icon-password {
+  color: #666;
+  font-size: 20px;
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+#firstCover #round .logInput .pwdSign {
+  margin-bottom: 0;
+}
+#firstCover #round .logInput .back,
+#firstCover #round .logInput .go {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#firstCover #round .logInput .back .backBtn,
+#firstCover #round .logInput .go .backBtn,
+#firstCover #round .logInput .back .goBtn,
+#firstCover #round .logInput .go .goBtn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  color: skyblue;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  #firstCover #round .logInput .back .backBtn,
+  #firstCover #round .logInput .go .backBtn,
+  #firstCover #round .logInput .back .goBtn,
+  #firstCover #round .logInput .go .goBtn {
+    width: 65px;
+    height: 65px;
+  }
+  #firstCover #round .logInput .back .backBtn i,
+  #firstCover #round .logInput .go .backBtn i,
+  #firstCover #round .logInput .back .goBtn i,
+  #firstCover #round .logInput .go .goBtn i {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #firstCover #round .logInput .back .backBtn,
+  #firstCover #round .logInput .go .backBtn,
+  #firstCover #round .logInput .back .goBtn,
+  #firstCover #round .logInput .go .goBtn {
+    width: 40px;
+    height: 40px;
+  }
+  #firstCover #round .logInput .back .backBtn i,
+  #firstCover #round .logInput .go .backBtn i,
+  #firstCover #round .logInput .back .goBtn i,
+  #firstCover #round .logInput .go .goBtn i {
+    font-size: 20px;
+  }
+}
+nav {
+  padding: 0 0px;
+  background-color: #ee5;
+}
