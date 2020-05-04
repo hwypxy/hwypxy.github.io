@@ -57,7 +57,7 @@ $(function() {
         $('.log span').on('click', function() {
             $('#round').off('mouseleave mouseenter');
             if (width < 768) {
-                $('#round').stop(false, true).delay(500).animate({
+                $('#round').stop(false, true).animate({
                     width: '280px',
                     height: '280px',
                     top: (height - 280) / 2,
@@ -76,7 +76,7 @@ $(function() {
                     $('.log').hide();
                 });
             } else {
-                $('#round').stop(false, true).delay(500).animate({
+                $('#round').stop(false, true).animate({
                     width: '600px',
                     height: '600px',
                     top: (height - 600) / 2,
